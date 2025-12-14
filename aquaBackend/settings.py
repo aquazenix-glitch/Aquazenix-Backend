@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-vm8waievkl-__##$q&h6t(m=@kx031f47do-konc$cuo5=zv+l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh', 'localhost', 'aquazenix.co.in', 'www.aquazenix.co.in']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh', 'localhost', 'aquazenix.co.in', 'www.aquazenix.co.in', 'admin.aquazenix.co.in']
 
 
 # Application definition
@@ -139,6 +139,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://aquazenix-frontend.vercel.app",
     "https://aquazenix.co.in",
     "https://www.aquazenix.co.in",
+    "https://admin.aquazenix.co.in",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -146,6 +147,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://aquazenix-frontend.vercel.app",
     "https://aquazenix.co.in",
     "https://www.aquazenix.co.in",
+    "https://admin.aquazenix.co.in",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
