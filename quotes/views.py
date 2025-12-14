@@ -5,3 +5,8 @@ from .serializers import QuoteSerializer
 class QuoteSubmissionView(generics.CreateAPIView):
     queryset = Quote.objects.all()
     serializer_class = QuoteSerializer
+
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'home.html')
