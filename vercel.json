@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "aquaBackend/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "aquaBackend/wsgi.py"
+        }
+    ]
+}
